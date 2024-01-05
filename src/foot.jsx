@@ -1,5 +1,6 @@
 // import { FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
 import './foot.css'
+import bitlab from "./images/bitlab-logo.svg"
 
 const Foot = () => {
     return (
@@ -60,7 +61,7 @@ const Foot = () => {
             </div>
             <div className="sb__footer-links_div">
               <div className="socialmedia">
-                <img src="./bitlab-logo.svg" alt="" />
+                <img src={bitlab} alt="" />
                 <p>
                   <img src="" alt="" />
                 </p>

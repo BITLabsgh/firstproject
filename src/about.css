@@ -1,6 +1,6 @@
 .afirst-part{
     position: relative;
-    background-image: url("/about3.jpg");
+    background-image: url("./images/about3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 150px;
@@ -152,7 +152,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./stemcafe4.JPG");
+    background-image: url("./images/stemcafe4.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -162,7 +162,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./IMG_8752.JPG");
+    background-image: url("./images/IMG_8752.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -172,7 +172,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./challenges.png");
+    background-image: url("./images/challenges.png");
     background-size: cover;
     background-position: center;
 }
@@ -243,7 +243,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./AdrianaNim.jpg");
+    background-image: url("./images/AdrianaNim.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -253,7 +253,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./AdonaiAddo.jpg");
+    background-image: url("./images/AdonaiAddo.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -263,7 +263,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./DennisFrimpong.png");
+    background-image: url("./images/DennisFrimpong.png");
     background-size: cover;
     background-position: center;
     /* transform: scale(1.3); */
@@ -274,7 +274,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./charliebeck].jpg");
+    background-image: url("./images/charliebeck.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -284,7 +284,7 @@
     left: 0;
     width: 100%;
     height: 80%;
-    background-image: url("./JimSkon.png");
+    background-image: url("./images/JimSkon.png");
     background-size: cover;
     background-position: center;
 }

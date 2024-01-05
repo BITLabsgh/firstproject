@@ -1,3 +1,5 @@
+import aestetic1 from "./images/aesthetic1.jpg"
+
 const About = () => {
     return (
       <>
@@ -35,7 +37,7 @@ const About = () => {
         </div>
         <div className="asecondpart">
           <>
-            <img src="./aesthetic1.jpg" alt="" />
+            <img src={aestetic1} alt="" />
           </>
           <div className="imagetext">
             <h1>OUR MISSION</h1>

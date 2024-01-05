@@ -1,3 +1,6 @@
+import yafa from "./images/YAF1.png"
+import bismuth from "./images/Bismuth.png"
+
 const Financial = () => {
     return (
       <div>
@@ -49,8 +52,8 @@ const Financial = () => {
             <h1>CURRENT SPONSORS</h1>
 
             <div className="currrentsponsors">
-              <img src="./YAF1.png" alt="" />
-              <img className="bb" src="./Bismuth.png" alt="" />
+              <img src={yafa} alt="" />
+              <img className="bb" src={bismuth} alt="" />
             </div>
             <div className="click">
               <h2><u>BECOME A SPONSOR</u></h2>

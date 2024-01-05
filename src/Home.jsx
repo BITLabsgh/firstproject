@@ -1,5 +1,14 @@
 import Slider from "./slideshow";
 import './index.css'
+import robotics from './images/robotics.png'
+import stem from './images/stemcafe4.JPG'
+import maker from './images/maker.png'
+import entrepreneurship from './images/entrepreneurship.png'
+import goodSheperd from './images/Good Shepherd RC logo.png'
+import hilltop from './images/hilltop.png'
+import MountOlivet from './images/Mount Olivet School Logo.png'
+import nagies from './images/nagies school.png'
+
 
 const Homepage = () => {
   return (
@@ -66,19 +75,19 @@ const Homepage = () => {
           </div>
         </div> */}
         <div className="boxes">
-          <img src="./robotics.png" alt="" />
+          <img src={robotics} alt="" />
           <h2>Robotics Workshop</h2>
         </div>
         <div className="boxes">
-          <img src="./stemcafe4.JPG" alt="" />
+          <img src={stem} alt="" />
           <h2>Collaborative Challenges</h2>
         </div>
         <div className="boxes">
-          <img src="./maker.png" alt="" />
+          <img src={maker} alt="" />
           <h2>Maker Activities</h2>
         </div>
         <div className="boxes">
-          <img src="./entrepreneurship.png" alt="" />
+          <img src={entrepreneurship} alt="" />
           <h2>Entrepreneurship</h2>
         </div>
       </div>
@@ -98,16 +107,16 @@ const Homepage = () => {
             <>
               <div className="values">
                 <div className="value1">
-                  <img src="./Good Shepherd RC logo.png" alt="" />
+                  <img src={goodSheperd} alt="" />
                 </div>
                 <div className="value2">
-                  <img src="./hilltop.png" alt="" />
+                  <img src={hilltop} alt="" />
                 </div>
                 <div className="value3">
-                  <img src="./Mount Olivet School Logo.png" alt="" />
+                  <img src={MountOlivet} alt="" />
                 </div>
                 <div className="value4">
-                  <img src="./nagies school.png" alt="" />
+                  <img src={nagies} alt="" />
                 </div>
               </div>
             </>

@@ -33,7 +33,7 @@
     height: 300px;
     min-width: 300px;
     /* background-color: green; */
-    background-image: url('./round.jpg');
+    background-image: url('./images/round.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@
 .blimage{
     height:750px;
     width: 100%;
-    background-image: url("./intro1.jpg");
+    background-image: url("./images/intro1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

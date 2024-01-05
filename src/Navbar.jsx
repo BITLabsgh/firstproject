@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
+import bitlab from "./images/bitlab-logo.svg"
+// import kenya from './images/ke.svg'
+// import international from './images/international.svg'
+
 
 const navitems = ["Home","About", "Courses", "Financial Aid", "Apply","Gallery"];
 
@@ -81,12 +85,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="/bitlab-logo.svg" />
+        <img src={bitlab} />
       </div>
       <div className="links">
         <ul className={`scroll ${showSidebar ? "" : "hidden"}`}>
           <li className="sm-img">
-            <img src="/bitlab-logo.svg" />
+            <img src={bitlab} />
           </li>
           {navitems.map((navitem, index) => (
             <Link key={index} to={navitem.split(" ")[0]}onClick={() => handleClick(index)}>

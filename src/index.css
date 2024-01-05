@@ -15,7 +15,7 @@
 .first-part{
   padding: 100px 0;
   position: relative;
-  background-image: url("/intro1.jpg");
+  background-image: url("./images/intro1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -377,7 +377,7 @@
   width: 20%;
   background-repeat: no-repeat;
  
-  background-image: url("/robotics.png");
+  background-image: url("./images/robotics.png");
   border-radius: 5px;
 }
 
@@ -386,7 +386,7 @@
   height: 220px;
   width: 20%;
   background-repeat: no-repeat;
-  background-image: url("/challenges.png");
+  background-image: url("./images/challenges.png");
   border-radius: 5px;
 }
 
@@ -395,7 +395,7 @@
   height: 220px;
   width: 20%;
   background-repeat: no-repeat;
-  background-image: url("/maker.png");
+  background-image: url("./images/maker.png");
   border-radius: 5px;
 }
 
@@ -403,7 +403,7 @@
   position: relative;
   height: 220px;
   width: 20%;
-  background-image: url("/entrepreneurship.png");
+  background-image: url("./images/entrepreneurship.png");
   border-radius: 5px;
 }
 
@@ -438,7 +438,7 @@
 .video {
   height: 400px;
   flex: 1;
-  background-image: url("/side.jpg");
+  background-image: url("./images/side.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -562,7 +562,7 @@
 
 .secondhalf {
   height: 600px;
-  background-image: url("/collab.jpg");
+  background-image: url("./images/collab.jpg");
   background-size: cover;
   width: 50%;
 }

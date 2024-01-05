@@ -1,9 +1,16 @@
+import intro1 from "./images/intro1.jpg"
+import appdev from "./images/appdev.jpg"
+import webdev from "./images/webdev.jpg"
+import ui from "./images/ui.jpg"
+import graphics from "./images/graphics.jpg"
+import data from "./images/data.jpg"
+import cyber from "./images/cyber.jpg"
 
 const Courses = () => {
   return (
     <>
       <div className="cfirst-part">
-        <img src="/intro1.jpg" alt=""/>
+        <img src={intro1} alt=""/>
         <div className="textonimage">
           <h2 className="title">Courses </h2>
         </div>
@@ -11,7 +18,7 @@ const Courses = () => {
 
       <div className="ccontainer">
         <div className="cbox1">
-          <img src="./appdev.jpg"/>
+          <img src={appdev}/>
           <h2>App Development</h2>
           <p>
             Unlock your potential and master the art of app development with our
@@ -24,7 +31,7 @@ const Courses = () => {
           <button>Apply</button>
         </div>
         <div className="cbox1">
-          <img src="./webdev.jpg"/>
+          <img src={webdev}/>
           <h2>Web Development</h2>
           <p>
             Ready to become a web development pro? Our dynamic course is
@@ -40,7 +47,7 @@ const Courses = () => {
       </div>
       <div className="ccontainer1">
         <div className="cbox1">
-          <img src="./ui.jpg"/>
+          <img src={ui}/>
           <h2>UI/UX Development</h2>
           <p>
             Step into the captivating world of UI/UX design with our
@@ -56,7 +63,7 @@ const Courses = () => {
                   <button>Apply</button>
         </div>
         <div className="cbox1">
-          <img src="./graphics.jpg"/>
+          <img src={graphics}/>
           <h2>Graphics Design</h2>
           <p>
             Unleash your creativity with our cutting-edge graphics design
@@ -74,7 +81,7 @@ const Courses = () => {
 
       <div className="ccontainer2">
         <div className="cbox1">
-          <img src="./data.jpg"/>
+          <img src={data}/>
           <h2>Data Analytics</h2>
           <p>
             Discover the power of data with our immersive data analytics course.
@@ -90,7 +97,7 @@ const Courses = () => {
           <button>Apply</button>
         </div>
         <div className="cbox1">
-          <img src="./cyber.jpg"/>
+          <img src={cyber}/>
           <h2>CyberSecurity</h2>
           <p>
             Take the first step toward a secure digital future with our
