@@ -8,6 +8,7 @@ import goodSheperd from './images/Good Shepherd RC logo.png'
 import hilltop from './images/hilltop.png'
 import MountOlivet from './images/Mount Olivet School Logo.png'
 import nagies from './images/nagies school.png'
+import { Link } from "react-router-dom";
 
 
 const Homepage = () => {
@@ -23,7 +24,9 @@ const Homepage = () => {
             equipping them with the <br /> kills and mindset to become future
             problem solvers and trailblazers
           </p>
-          <button className="availableCourses">APPLY</button>
+          <Link to="/Apply">
+            <button className="availableCourses">APPLY</button>
+          </Link>
           {/* <div className="innersection">
                   
               </div> */}
