@@ -5,6 +5,7 @@ import ui from "./images/ui.jpg"
 import graphics from "./images/graphics.jpg"
 import data from "./images/data.jpg"
 import cyber from "./images/cyber.jpg"
+import { Link } from "react-router-dom"
 
 const Courses = () => {
   return (
@@ -28,7 +29,7 @@ const Courses = () => {
             journey toward becoming a skilled app developer
           </p>
           <div className="fading"></div>
-          <button>Apply</button>
+          <Link to="/Apply"><button>Apply</button></Link>
         </div>
         <div className="cbox1">
           <img src={webdev}/>
@@ -42,7 +43,7 @@ const Courses = () => {
             the exciting realm of web development!
           </p>
           <div className="fading"></div>
-          <button>Apply</button>
+          <Link to="/Apply"><button>Apply</button></Link>
         </div>
       </div>
       <div className="ccontainer1">
@@ -60,7 +61,7 @@ const Courses = () => {
             interaction!
                   </p>
           <div className="fading"></div>
-                  <button>Apply</button>
+          <Link to="/Apply"><button>Apply</button></Link>
         </div>
         <div className="cbox1">
           <img src={graphics}/>
@@ -75,7 +76,7 @@ const Courses = () => {
             your artistic vision into compelling visual masterpieces!
           </p>
           <div className="fading"></div>
-          <button>Apply</button>
+          <Link to="/Apply"><button>Apply</button></Link>
         </div>
       </div>
 
@@ -94,7 +95,7 @@ const Courses = () => {
             strategic decision-maker!
           </p>
           <div className="fading"></div>
-          <button>Apply</button>
+          <Link to="/Apply"><button>Apply</button></Link>
         </div>
         <div className="cbox1">
           <img src={cyber}/>
@@ -110,7 +111,7 @@ const Courses = () => {
             ensuring a safer and more secure online environment for all.
           </p>
           <div className="fading"></div>
-          <button>Apply</button>
+          <Link to="/Apply"><button>Apply</button></Link>
         </div>
       </div>
     </>
