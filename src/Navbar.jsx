@@ -85,15 +85,19 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src={bitlab} />
+        <Link to="/">
+          <img src={bitlab} />
+        </Link>
       </div>
       <div className="links">
         <ul className={`scroll ${showSidebar ? "" : "hidden"}`}>
           <li className="sm-img">
-            <img src={bitlab} />
+            <Link to="/">
+              <img src={bitlab} />
+            </Link>
           </li>
           {navitems.map((navitem, index) => (
-            <Link key={index} to={navitem.split(" ")[0]}onClick={() => handleClick(index)}>
+            <Link key={index} to={navitem.split(" ")[0]} onClick={() => handleClick(index)}>
               <li
                 className={`navbar-item `}
                 // onMouseEnter={() => handleMouseEnter(index)}
